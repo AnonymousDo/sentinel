@@ -21,7 +21,7 @@ Update system packages and ensure virtualenv is installed:
     $ sudo apt-get update
     $ sudo apt-get -y install python-virtualenv
 
-Make sure the local Helpico daemon running is at least version  (1000200)
+Make sure the local Helpico daemon running is at least version  (120203)
 
     $ helpico-cli getinfo | grep version
 
